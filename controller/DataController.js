@@ -1,4 +1,4 @@
-const models = require('../models')
+const models = require('../models/antrian')
 const moment = require('moment')
 const { Op } = require('sequelize')
 
@@ -35,7 +35,7 @@ exports.TambahDataAntrian = async (req, res) => {
             nomor : NomorAntrian,
             kode : meja.kode,
             meja_id : meja.id
-        }, 
+        },
         {where : { id : 1 }})
         .then(() => {
             res.send({

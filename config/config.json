@@ -7,6 +7,14 @@
     "dialect": "mariadb",
     "logging" : false
   },
+  "sipp": {
+    "username": "apri",
+    "password": "selamanya48",
+    "database": "sipp2",
+    "host": "192.168.2.44",
+    "dialect": "mariadb",
+    "logging" : false
+  },
   "test": {
     "username": "apri",
     "password": "selamanya48",
