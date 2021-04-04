@@ -1,5 +1,6 @@
 const models = require('../models')
 
+
 exports.PanggilMejaPtsp = (req, res) => {
     models.DataMeja.findAll({raw : true, where : {tv : 1}})
         .then(result => {

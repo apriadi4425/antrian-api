@@ -4,7 +4,8 @@
     "password": "selamanya48",
     "database": "antrian-ptsp",
     "host": "192.168.2.44",
-    "dialect": "mariadb"
+    "dialect": "mariadb",
+    "logging" : false
   },
   "test": {
     "username": "apri",
