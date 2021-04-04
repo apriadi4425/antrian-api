@@ -23,6 +23,10 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'DataMeja',
+    tableName: 'meja',
+    freezeTableName: true,
+    timestamps: false,
+    createdAt: false,
   });
   return DataMeja;
 };
