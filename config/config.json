@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "apri",
+    "password": "selamanya48",
+    "database": "antrian-ptsp",
+    "host": "192.168.2.44",
+    "dialect": "mariadb"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "apri",
+    "password": "selamanya48",
+    "database": "antrian-ptsp",
+    "host": "192.168.2.44",
+    "dialect": "mariadb"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "apri",
+    "password": "selamanya48",
+    "database": "antrian-ptsp",
+    "host": "192.168.2.44",
+    "dialect": "mariadb"
   }
 }
