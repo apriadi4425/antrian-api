@@ -14,7 +14,10 @@ module.exports = (sequelize, DataTypes) => {
         }
     };
     JadwalSidang.init({
-        perkara_id: DataTypes.INTEGER,
+        perkara_id: {
+            type : DataTypes.INTEGER,
+            references: { model: 'perkara', key: 'perkara_id' }
+        },
         tanggal_sidang : DataTypes.DATEONLY
     }, {
         sequelize,

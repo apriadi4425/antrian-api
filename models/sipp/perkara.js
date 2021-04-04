@@ -14,6 +14,10 @@ module.exports = (sequelize, DataTypes) => {
         }
     };
     Perkara.init({
+        perkara_id : {
+            type: DataTypes.INTEGER,
+            primaryKey: true
+        },
         pihak1_text: DataTypes.STRING,
         nomor_perkara : DataTypes.STRING
     }, {
@@ -24,5 +28,7 @@ module.exports = (sequelize, DataTypes) => {
         timestamps: false,
         createdAt: false,
     });
+    Perkara.removeAttribute('id');
+
     return Perkara;
 };
